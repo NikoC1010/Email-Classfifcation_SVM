@@ -1,5 +1,8 @@
 # Email-Classfifcation_SVM
 This project focuses on classifying emails as spam or non-spam using Support Vector Machine (SVM) with a linear kernel.  During the preprocessing phase, we employed stemming for text normalization. The model was implemented using SVC,  and we visualized the top words associated with different classifications. The model's performance was evaluated using  the Area Under the Curve (AUC), achieving an impressive score of 0.99.
+
+In addition, in order to improve the overall Performance, I tried to add some additional information (text sentiment score/part of speech of text) to combine with my trainset during this process, and the results showed that different information could improve the performance by about 1%.
+
 Refer to my file code for more details on preprocessing.
 
 You can find the data at the following link:
